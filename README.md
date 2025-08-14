@@ -1,12 +1,36 @@
-# React + Vite
+# IELTS Mock Mini - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu loyiha **IELTS Mock Mini** platformasining frontend qismi bo‘lib, foydalanuvchilarga IELTS testlarini onlayn topshirish imkonini beradi. Frontend **React.js** va **Tailwind CSS** asosida ishlab chiqilgan va **Vercel** platformasida deploy qilingan. Backend **Render** orqali ishlaydi.
 
-Currently, two official plugins are available:
+ 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** [Vercel Link](https://ilets-mock-frontend-test.vercel.app/)  
+- **Backend:** [Render Link](https://ielts-mock-backend-b2je.onrender.com)
 
-## Expanding the ESLint configuration
+🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – UI yaratish uchun  
+- **Tailwind CSS** – Stil va dizayn  
+- **Vite** – Build tool va dev server  
+- **Axios / Fetch** – Backend API bilan bog‘lanish uchun
+
+  📊 UML Diagram
+<img width="1536" height="1024" alt="Ielts uml" src="https://github.com/user-attachments/assets/7a0eb112-931b-44fc-addb-2a35f50c4d4a" />
+
+
+Frontend backend bilan ulanadi. `src/config.js` yoki API faylida quyidagicha o‘rnatiladi:
+
+```js
+const API_BASE = "https://ielts-mock-backend-b2je.onrender.com";
+export default API_BASE;
+📌 Features
+✅ Testni boshlash
+✅ Tasodifiy savollar
+✅ 10 daqiqalik taymer
+✅ Foydalanuvchi javoblari va yakuniy natija
+Eslatma: Admin panel front-end qismi hozircha yaratilmagan, lekin backend API orqali savollarni qo‘shish, tahrirlash va o‘chirish mumkin.
+
+🚀 Installation
+cd frontend
+npm install
+npm run dev
