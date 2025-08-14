@@ -4,8 +4,11 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="" />
-          <div className="w-[100px] pt-5 h-[100px] font-bold gradient-text">
-            <img src="../../../public/logo.png" alt="" />
+          <div className="w-[100px]  h-[100px] font-bold gradient-text">
+            <div className="w-[100px] pt-5 h-[100px] font-bold gradient-text flex items-center justify-center text-xl">
+  Ielts Mock
+</div>
+
           </div>
         </div>
         <div className="text-sm text-black/60">Frontend • React + Tailwind 4</div>
